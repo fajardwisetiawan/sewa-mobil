@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:clickable="true"
+    android:foreground="?attr/selectableItemBackground"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:id="@+id/linlayStatus"
+    android:background="#fff"
+    android:padding="16dp"
+    android:layout_marginBottom="4dp"
+    android:layout_height="wrap_content"
+    tools:context=".StatusAct">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:text="Username"
+            android:textStyle="bold"
+            android:textColor="@color/black_tua_hehe"
+            android:id="@+id/tvUsernameStat"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="10dp"
+                android:text="Tanggal Pinjam"
+                android:id="@+id/tvTanggalPinjamStat"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="12dp"
+                android:text=" - "/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="10dp"
+                android:text="Tanggal Kembali"
+                android:id="@+id/tvTanggalKembaliStat"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linlayDipros"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Status :"
+                android:textStyle="bold"
+                android:textColor="@color/black_tua_hehe"
+                android:textSize="@dimen/sp_14" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" "
+                android:textStyle="bold"
+                android:textColor="@color/black_tua_hehe"
+                android:textSize="@dimen/sp_14" />
+
+            <TextView
+                android:id="@+id/tvStatusDipros"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Penyewaan Diproses"
+                android:paddingTop="@dimen/dp_8"
+                android:paddingBottom="@dimen/dp_8"
+                android:textStyle="bold"
+                android:textColor="#FFD600"
+                android:textSize="@dimen/sp_12" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linlayDiter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Status :"
+                android:textStyle="bold"
+                android:textColor="@color/black_tua_hehe"
+                android:textSize="@dimen/sp_14" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" "
+                android:textStyle="bold"
+                android:textColor="@color/black_tua_hehe"
+                android:textSize="@dimen/sp_14" />
+
+            <TextView
+                android:id="@+id/tvStatusDiter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Penyewaan Diterima"
+                android:paddingTop="@dimen/dp_8"
+                android:paddingBottom="@dimen/dp_8"
+                android:textStyle="bold"
+                android:textColor="#64DD17"
+                android:textSize="@dimen/sp_12" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linlayDitol"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Status :"
+                android:textStyle="bold"
+                android:textColor="@color/black_tua_hehe"
+                android:textSize="@dimen/sp_14" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" "
+                android:textStyle="bold"
+                android:textColor="@color/black_tua_hehe"
+                android:textSize="@dimen/sp_14" />
+
+            <TextView
+                android:id="@+id/tvStatusDitol"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Penyewaan Ditolak"
+                android:paddingTop="@dimen/dp_8"
+                android:paddingBottom="@dimen/dp_8"
+                android:textStyle="bold"
+                android:textColor="#D50000"
+                android:textSize="@dimen/sp_12" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

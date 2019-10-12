@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DetailApproveAct">
+
+    <LinearLayout
+        android:layout_alignParentTop="true"
+        android:id="@+id/ln1"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@color/colorPrimary"
+        android:backgroundTint="@color/colorPrimary">
+        <ImageView
+            android:id="@+id/back"
+            android:tint="#fff"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="16dp"
+            android:src="@drawable/ic_arrow_back_black_24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="16dp"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:text="APPROVE PENYEWAAN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/gray_muda_banget">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/colorPrimary" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="@dimen/dp_16">
+
+                    <TextView
+                        android:id="@+id/tvUsernameDA"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Fajar Dwi Setiawan"
+                        android:textStyle="bold"
+                        android:textColor="@color/black_tua_hehe"
+                        android:textSize="@dimen/sp_14" />
+
+                    <TextView
+                        android:id="@+id/tvTanggalPesanDA"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="19/09/2019"
+                        android:paddingTop="@dimen/dp_8"
+                        android:paddingBottom="@dimen/dp_8"
+                        android:textColor="@color/black_tua_hehe"
+                        android:textSize="@dimen/sp_12" />
+
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_16"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/colorPrimary" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="@dimen/dp_16">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Jenis Keperluan"
+                        android:textColor="@color/black_tua_hehe"
+                        android:textSize="@dimen/sp_10" />
+
+                    <TextView
+                        android:id="@+id/tvJenisKeperluanDA"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="@dimen/dp_8"
+                        android:paddingBottom="@dimen/dp_8"
+                        android:text="abcdefghijklmnopqrstuvwxyz"
+                        android:textColor="@color/black_tua_hehe"
+                        android:textSize="@dimen/sp_14" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Jenis Pemesanan"
+                        android:textColor="@color/black_tua_hehe"
+                        android:textSize="@dimen/sp_10" />
+
+                    <TextView
+                        android:id="@+id/tvJenisPemesananDA"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="@dimen/dp_8"
+                        android:paddingBottom="@dimen/dp_8"
+                        android:text="abcdefghijklmnopqrstuvwxyz"
+                        android:textColor="@color/black_tua_hehe"
+                        android:textSize="@dimen/sp_14" />
+
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_16"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/colorPrimary" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="@dimen/dp_16">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="KEBERANGKATAN"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:textColor="@color/black_tua_hehe"
+                        android:textSize="@dimen/sp_14" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Kawasan"
+                        android:textColor="@color/black_tua_hehe"
+                        android:textSize="@dimen/sp_10" />
+
+                    <TextView
+                        android:id="@+id/tvKawasanDA"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="@dimen/dp_8"
+                        android:paddingBottom="@dimen/dp_8"
+                        android:text="abcdefghijklmnopqrstuvwxyz"
+                        android:textColor="@color/black_tua_hehe"
+                        android:textSize="@dimen/sp_14" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Witel"
+                        android:textColor="@color/black_tua_hehe"
+                        android:textSize="@dimen/sp_10" />
+
+                    <TextView
+                        android:id="@+id/tvWitelDA"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="@dimen/dp_8"
+                        android:paddingBottom="@dimen/dp_8"
+                        android:text="abcdefghijklmnopqrstuvwxyz"
+                        android:textColor="@color/black_tua_hehe"
+                        android:textSize="@dimen/sp_14" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Area Pool"
+                        android:textColor="@color/black_tua_hehe"
+                        android:textSize="@dimen/sp_10" />
+
+                    <TextView
+                        android:id="@+id/tvAreaPoolDA"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="@dimen/dp_8"
+                        android:paddingBottom="@dimen/dp_8"
+                        android:text="abcdefghijklmnopqrstuvwxyz"
+                        android:textColor="@color/black_tua_hehe"
+                        android:textSize="@dimen/sp_14" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Area Tujuan"
+                        android:textColor="@color/black_tua_hehe"
+                        android:textSize="@dimen/sp_10" />
+
+                    <TextView
+                        android:id="@+id/tvAreaTujuanDA"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="@dimen/dp_8"
+                        android:paddingBottom="@dimen/dp_8"
+                        android:text="abcdefghijklmnopqrstuvwxyz"
+                        android:textColor="@color/black_tua_hehe"
+                        android:textSize="@dimen/sp_14" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_16"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/colorPrimary" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="@dimen/dp_16">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="ALAMAT"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:textColor="@color/black_tua_hehe"
+                        android:textSize="@dimen/sp_14" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Alamat Keberangkatan"
+                        android:textColor="@color/black_tua_hehe"
+                        android:textSize="@dimen/sp_10" />
+
+                    <TextView
+                        android:id="@+id/tvAlamatKeberangkatanDA"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="@dimen/dp_8"
+                        android:paddingBottom="@dimen/dp_8"
+                        android:text="abcdefghijklmnopqrstuvwxyz"
+                        android:textColor="@color/black_tua_hehe"
+                        android:textSize="@dimen/sp_14" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Alamat Tujuan"
+                        android:textColor="@color/black_tua_hehe"
+                        android:textSize="@dimen/sp_10" />
+
+                    <TextView
+                        android:id="@+id/tvAlamatTujuanDA"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="@dimen/dp_8"
+                        android:paddingBottom="@dimen/dp_8"
+                        android:text="abcdefghijklmnopqrstuvwxyz"
+                        android:textColor="@color/black_tua_hehe"
+                        android:textSize="@dimen/sp_14" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_16"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/colorPrimary" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="@dimen/dp_16">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="JARAK"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:textColor="@color/black_tua_hehe"
+                        android:textSize="@dimen/sp_14" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Jarak Tempuh"
+                        android:textColor="@color/black_tua_hehe"
+                        android:textSize="@dimen/sp_10" />
+
+                    <TextView
+                        android:id="@+id/tvJarakTempuhDA"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="@dimen/dp_8"
+                        android:paddingBottom="@dimen/dp_8"
+                        android:text="abcdefghijklmnopqrstuvwxyz"
+                        android:textColor="@color/black_tua_hehe"
+                        android:textSize="@dimen/sp_14" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Durasi Perjalanan"
+                        android:textColor="@color/black_tua_hehe"
+                        android:textSize="@dimen/sp_10" />
+
+                    <TextView
+                        android:id="@+id/tvDurasiPerjalananDA"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="@dimen/dp_8"
+                        android:paddingBottom="@dimen/dp_8"
+                        android:text="abcdefghijklmnopqrstuvwxyz"
+                        android:textColor="@color/black_tua_hehe"
+                        android:textSize="@dimen/sp_14" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Perkiraan BBM"
+                        android:textColor="@color/black_tua_hehe"
+                        android:textSize="@dimen/sp_10" />
+
+                    <TextView
+                        android:id="@+id/tvPerkiraanBBMDA"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="@dimen/dp_8"
+                        android:paddingBottom="@dimen/dp_8"
+                        android:text="abcdefghijklmnopqrstuvwxyz"
+                        android:textColor="@color/black_tua_hehe"
+                        android:textSize="@dimen/sp_14" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_16"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/colorPrimary" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="@dimen/dp_16">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="WAKTU"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:textColor="@color/black_tua_hehe"
+                        android:textSize="@dimen/sp_14" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Hari dan Tanggal Keberangkatan"
+                        android:textColor="@color/black_tua_hehe"
+                        android:textSize="@dimen/sp_10" />
+
+                    <TextView
+                        android:id="@+id/tvHariKeberangkatanDA"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="@dimen/dp_8"
+                        android:paddingBottom="@dimen/dp_8"
+                        android:text="abcdefghijklmnopqrstuvwxyz"
+                        android:textColor="@color/black_tua_hehe"
+                        android:textSize="@dimen/sp_14" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Jam Keberangkatan"
+                        android:textColor="@color/black_tua_hehe"
+                        android:textSize="@dimen/sp_10" />
+
+                    <TextView
+                        android:id="@+id/tvJamKeberangkatanDA"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="@dimen/dp_8"
+                        android:paddingBottom="@dimen/dp_8"
+                        android:text="abcdefghijklmnopqrstuvwxyz"
+                        android:textColor="@color/black_tua_hehe"
+                        android:textSize="@dimen/sp_14" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Hari dan Tanggal Kepulangan"
+                        android:textColor="@color/black_tua_hehe"
+                        android:textSize="@dimen/sp_10" />
+
+                    <TextView
+                        android:id="@+id/tvHariKepulanganDA"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="@dimen/dp_8"
+                        android:paddingBottom="@dimen/dp_8"
+                        android:text="abcdefghijklmnopqrstuvwxyz"
+                        android:textColor="@color/black_tua_hehe"
+                        android:textSize="@dimen/sp_14" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Jam Kepulangan"
+                        android:textColor="@color/black_tua_hehe"
+                        android:textSize="@dimen/sp_10" />
+
+                    <TextView
+                        android:id="@+id/tvJamKepulanganDA"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="@dimen/dp_8"
+                        android:paddingBottom="@dimen/dp_8"
+                        android:text="abcdefghijklmnopqrstuvwxyz"
+                        android:textColor="@color/black_tua_hehe"
+                        android:textSize="@dimen/sp_14" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_16"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/colorPrimary" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="@dimen/dp_16">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="No. Telepon Kantor"
+                        android:textColor="@color/black_tua_hehe"
+                        android:textSize="@dimen/sp_10" />
+
+                    <TextView
+                        android:id="@+id/tvNoTelpKantorDA"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="@dimen/dp_8"
+                        android:paddingBottom="@dimen/dp_8"
+                        android:text="abcdefghijklmnopqrstuvwxyz"
+                        android:textColor="@color/black_tua_hehe"
+                        android:textSize="@dimen/sp_14" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Nama Penumpang"
+                        android:textColor="@color/black_tua_hehe"
+                        android:textSize="@dimen/sp_10" />
+
+                    <TextView
+                        android:id="@+id/tvNamaPenumpangDA"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="@dimen/dp_8"
+                        android:paddingBottom="@dimen/dp_8"
+                        android:text="abcdefghijklmnopqrstuvwxyz"
+                        android:textColor="@color/black_tua_hehe"
+                        android:textSize="@dimen/sp_14" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Jumlah Penumpang"
+                        android:textColor="@color/black_tua_hehe"
+                        android:textSize="@dimen/sp_10" />
+
+                    <TextView
+                        android:id="@+id/tvJumlahPenumpangDA"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="@dimen/dp_8"
+                        android:paddingBottom="@dimen/dp_8"
+                        android:text="abcdefghijklmnopqrstuvwxyz"
+                        android:textColor="@color/black_tua_hehe"
+                        android:textSize="@dimen/sp_14" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Nama Atasan"
+                        android:textColor="@color/black_tua_hehe"
+                        android:textSize="@dimen/sp_10" />
+
+                    <TextView
+                        android:id="@+id/tvNamaAtasanDA"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="@dimen/dp_8"
+                        android:paddingBottom="@dimen/dp_8"
+                        android:text="abcdefghijklmnopqrstuvwxyz"
+                        android:textColor="@color/black_tua_hehe"
+                        android:textSize="@dimen/sp_14" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Keterangan"
+                        android:textColor="@color/black_tua_hehe"
+                        android:textSize="@dimen/sp_10" />
+
+                    <TextView
+                        android:id="@+id/tvKeteranganDA"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="@dimen/dp_8"
+                        android:paddingBottom="@dimen/dp_8"
+                        android:text="abcdefghijklmnopqrstuvwxyz"
+                        android:textColor="@color/black_tua_hehe"
+                        android:textSize="@dimen/sp_14" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_16"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/colorPrimary" />
+
+            <LinearLayout
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="35dp"
+                android:weightSum="2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/btnTerima"
+                    android:textColor="#fff"
+                    android:text="Terima"
+                    android:background="@drawable/button1"
+                    android:layout_weight="1"
+                    android:textSize="12sp"
+                    android:layout_marginRight="8dp"
+                    android:layout_width="0dp"
+                    android:layout_height="20sp" />
+                <Button
+                    android:textSize="12sp"
+                    android:id="@+id/btnTolak"
+                    android:textColor="#fff"
+                    android:text="Tolak"
+                    android:background="@drawable/button2"
+                    android:layout_marginLeft="8dp"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="20sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

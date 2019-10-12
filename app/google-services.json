@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "616179260855",
+    "firebase_url": "https://latihan-3b648.firebaseio.com",
+    "project_id": "latihan-3b648",
+    "storage_bucket": "latihan-3b648.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:616179260855:android:01870e902dbf8ca77a9c32",
+        "android_client_info": {
+          "package_name": "dzaki.project.sewamobilinvetaris"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "616179260855-kmom42nvicdnkuh1c5aeatqkqv7dsqk2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "dzaki.project.sewamobilinvetaris",
+            "certificate_hash": "f208211fa10b572f12ddd07fc691df83423a3c81"
+          }
+        },
+        {
+          "client_id": "616179260855-7u1094ls1js9mg9afuu79ql4u1ffnol8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUirV4ocMSBZzaQOyF2rbYdXBApyNsNRg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "616179260855-7u1094ls1js9mg9afuu79ql4u1ffnol8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

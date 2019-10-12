@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="dzaki.project.sewamobilinvetaris">
+
+    <application
+        android:name=".app.AppController"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".AboutAct"></activity>
+        <activity android:name=".DetailStatusAct" />
+        <activity android:name=".StatusAct" />
+        <activity android:name=".DetailApproveAct" />
+        <activity android:name=".ApproveAct" />
+        <activity android:name=".PesanMobil" />
+        <activity android:name=".HomeAct" />
+        <activity android:name=".DaftarAct" />
+        <activity android:name=".LoginAct" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <service android:name=".notif.MyFirebaseInstanceIdService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".notif.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDnqxnMV3hT6B0BY69jjzNPD1z_yvmuta0" />
+    </application>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+</manifest>

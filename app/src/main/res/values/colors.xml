@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1E88E5</color>
+    <color name="colorPrimaryDark">#196DB6</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="gray_muda">#D3D3D3</color>
+    <color name="gray_muda_banget">#F5F5F5</color>
+    <color name="gray_tua">#979797</color>
+    <color name="gray_tua_banget">#5E5E5E</color>
+
+    <color name="greenMuda">#23A352</color>
+    <color name="white">#ffffff</color>
+    <color name="green">#3ACF3C</color>
+    <color name="greenDark">#0E5A29</color>
+    <color name="black_muda">#2B2B2B</color>
+    <color name="black_tua_hehe">#333333</color>
+</resources>

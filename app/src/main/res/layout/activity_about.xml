@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".AboutAct">
+    <LinearLayout
+        android:layout_alignParentTop="true"
+        android:id="@+id/ln1"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@color/colorPrimary"
+        android:backgroundTint="@color/colorPrimary">
+        <ImageView
+            android:id="@+id/backAbout"
+            android:tint="#fff"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="16dp"
+            android:src="@drawable/ic_arrow_back_black_24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="16dp"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:text="ABOUT US"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/dp_16">
+    <com.codesgood.views.JustifiedTextView
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:textColor="@color/black_tua_hehe"
+        android:textStyle="bold"
+        android:textSize="@dimen/dp_16"
+        android:text="SewaMobilInventaris bergerak di bidang platform marketplace jasa sewa mobil online di beberapa daerah di Indonesia. Internet memberikan kesempatan kepada penjual dan pembeli untuk bertemu dan saling bertransaksi. Dalam perkembangannya, muncul suatu pasar yang mempertemukan keduanya untuk mengadakan kegiatan jual beli barang/jasa. Pasar di Internet ini kemudian disebut sebagai e-marketplace."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <com.codesgood.views.JustifiedTextView
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:textColor="@color/black_tua_hehe"
+        android:textStyle="bold"
+        android:textSize="@dimen/dp_16"
+        android:text="SewaMobilInventaris adalah e-marketplace yang bekerja sama dengan rental-rental mobil di Indonesia untuk menawarkan jasa rental mobil online kepada calon pelanggan. SewaMobilInventaris mempertemukan partner-partner penyedia jasa rental mobil yang ingin memasarkan jasa mobil dan calon penyewa mobil yang ingin mendapatkan mobil sesuai pilihan."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>
